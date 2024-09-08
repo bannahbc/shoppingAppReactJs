@@ -1,0 +1,22 @@
+
+.cate-wrapper .contents{
+    padding: 20px 6%;
+}
+.cate-list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    li{
+        padding: 25px;
+        border: 0;
+        outline: none;
+        background-color: rgba(240, 240, 240, 0.944);
+        box-shadow:rgba(235, 235, 235, 0.608) 0px 3px 8px ;
+        transition: all .4s;
+    }
+    li:hover{
+        box-shadow:rgba(140, 140, 140, 0.608) 0px 3px 8px ;
+        transform: scale(1.02);
+    }
+}
